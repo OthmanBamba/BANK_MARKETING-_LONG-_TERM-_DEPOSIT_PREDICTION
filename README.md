@@ -1,4 +1,61 @@
+#Projet de Prise de Décision sur les Données de Stratégie Marketing d'une Banque
+Description
+
+Ce projet analyse les données marketing de la banque PortuGBank afin d'optimiser les campagnes de souscription aux dépôts à terme (DAT). L'objectif est d'augmenter le taux d'acceptation des offres tout en minimisant le coût des actions commerciales.
+
+Les données couvrent une période de 4 ans et contiennent 41 188 clients et 21 variables, comprenant des informations socio-démographiques, historiques financières, données de contact, historiques de campagne et variables macroéconomiques.
+
+Objectifs
+
+Identifier les facteurs influençant la souscription au DAT.
+
+Optimiser le ciblage des clients pour réduire les coûts des campagnes marketing.
+
+Utiliser des techniques de data science pour extraire des insights exploitables.
+
+Segmentation des Données
+
+Données socio-démographiques :
+
+Âge, type de job, situation matrimoniale, niveau d'éducation.
+
+Analyse de leur impact sur la souscription au DAT.
+
+Historique financière :
+
+Défaut de paiement, prêt immobilier et personnel.
+
+Influence sur la capacité d'épargne des clients.
+
+Données de contact :
+
+Moyen de contact, mois et jour de la semaine, durée des communications.
+
+Importance de ces facteurs dans la conversion des clients.
+
+Historique de campagne :
+
+Nombre d'appels, délai depuis le dernier appel, résultats de campagnes précédentes.
+
+Impact sur la réussite des actions marketing.
+
+Données macroéconomiques :
+
+Taux de variation de l'emploi, nombre d'employés, inflation, confiance des consommateurs, taux d'intérêts.
+
+Influence sur la décision d'épargne des clients.
+
+Types de Variables
+
+Variables numériques : Age, duration, campaign, pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed.
+
+Variables catégorielles : job, marital, education, default, housing, loan, contact, month, day_of_week, poutcome, y (variable cible).
+
+Conclusion
+
+Cette analyse vise à fournir des recommandations basées sur les données afin d'améliorer les performances des campagnes marketing de PortuGBank. Les résultats permettront d'affiner le ciblage des clients pour une approche plus efficace et rentable.
 # Dashboard de Prédiction des Décisions d'Offre de DAT avec Streamlit
+
 
 ## Description
 Cette application Streamlit permet d'importer un fichier CSV, de sélectionner un modèle de machine learning et de faire des prédictions sur les décisions des offres de Dépôt à Terme (DAT). Elle propose aussi des visualisations interactives pour analyser les résultats et extraire des insights clés.
