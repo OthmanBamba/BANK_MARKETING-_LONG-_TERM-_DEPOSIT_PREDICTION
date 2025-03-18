@@ -19,22 +19,7 @@ Cette application Streamlit permet d'importer un fichier CSV, de sélectionner u
   - Nombre de clients ciblés par mois
   - Évolution du taux d'acceptation au fil des appels
 
-## Installation
-1. **Cloner le répertoire** :
-   ```sh
-   git clone https://github.com/ton-repo.git
-   cd ton-repo
-   ```
 
-2. **Installer les dépendances** :
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Lancer l'application Streamlit** :
-   ```sh
-   streamlit run app.py
-   ```
 
 ## Utilisation
 1. Importer un fichier CSV contenant les données clients.
